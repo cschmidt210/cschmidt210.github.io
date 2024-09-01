@@ -1,22 +1,6 @@
 <html>
 <head>
     <link rel="stylesheet" href="styles.css">
-
-<style>
-.grid-container {
-    display: grid;
-    grid-template-columns: 25% 75%;
-    background-color: #2196F3;
-    padding: 10px;
-  }
-  .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: left;
-  }
-</style>
 </head>
 <body>
 
@@ -26,37 +10,63 @@
     </H1>
 </div>
 
-<div>
-    <img id=photo src="img/Cade.jpg">
+<div id="about">
+    <div>
+    <img id="photo" src="img/Cade.jpg">
+    </div>
+     <div id="info">
+         <p>
+            I am a Senior studying Agricultural Systems Managment
+            at Purdue University with a minor in crop science.
+            I work on my uncle's farm on the weekends and during
+            summer break where we farm corn, soybeans, beef cattle, and hay. 
+        </p>
+        <div id="contact">
+            <a href="mailto:ccschmid@purdue.edu"><img id="link" src="img/noun-mail-7141881.png"></a>
+            <a href="https://github.com/cschmidt210/cschmidt210.github.io"><img id="link" src="img/noun-github-4289652.png"></a>
+            <a href="tel:5743391205"><img id="link" src="img/noun-phone-7165392.png"></a>
+        </div>
+    </div>
+        
+
+   
 </div>
 
-<div>
-    <p id=about>
-        I am a Senior studying Agricultural Systems Managment
-        at Purdue University with a minor in crop science.
-        I work on my uncle's farm on the weekends and during
-        summer break where we farm corn, soybeans, beef cattle, and hay. 
-    </p>
-</div>
+<H2 id="work-header">
+    Here's some of the work I have done
+</H2> 
 
-<div class="div.container" id="work-sample">
-    <H3 id="work">
-        Here's a sampling of my work
-    </H3> 
+<div class=grid-container id="work">
 
+    <div class="grid-item">
+        <img id="photo" src="img/Cade.jpg">    
+    </div> 
     <div class="grid-item">
         This was one of our projects this summer
-        working on my uncles farm.
-    </div>
-
-    <div class="grid-item">
-        2
+        working on my uncles farm. We drove to Iowa
+        to pick up this grain dryer. 
     </div>
 
      <div class="grid-item">
-        5
+        <img id="photo" src="img/Cade.jpg">
      </div>
-</div>
 
+     <div class="grid-item">
+        hello
+     </div>
+
+     <div class="grid-item">
+        <img id="photo" src="img/Cade.jpg">
+     </div>
+
+     <div class="grid-item">
+        hello
+     </div>
+
+</div>
+<div id="footer">
+<p> Last Edited: September 1, 2024 </p>
+<p>Corey Schmidt</p>
+</div>
 </body>
 </html>
